@@ -8,20 +8,20 @@ use App\Filament\Admin\Resources\Posts\Pages\ListPosts;
 use App\Filament\Admin\Resources\Posts\Schemas\PostForm;
 use App\Filament\Admin\Resources\Posts\Tables\PostsTable;
 use App\Models\Post;
-use BackedEnum;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use BackedEnum;
 
 class PostResource extends Resource
 {
     protected static ?string $model = Post::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
-
-    protected static ?string $recordTitleAttribute = 'title';
-
+    public static function getNavigationIcon(): string|null
+    {
+        return 'heroicon-s-briefcase';
+    }
     public static function form(Schema $schema): Schema
     {
         return PostForm::configure($schema);

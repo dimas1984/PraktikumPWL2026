@@ -18,10 +18,14 @@ class CategoryResource extends Resource
 {
     protected static ?string $model = Category::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    // protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
     protected static ?string $recordTitleAttribute = 'name';
 
+    public static function getNavigationIcon(): string|null
+    {
+        return 'heroicon-s-rectangle-stack';
+    }
     public static function form(Schema $schema): Schema
     {
         return CategoryForm::configure($schema);
