@@ -2,6 +2,7 @@
 
 namespace App\Filament\Admin\Resources\Posts\Schemas;
 
+use App\Models\Category;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -41,18 +42,19 @@ class PostForm
                             ]),
                     Select::make("category_id")
                         ->relationship("category", "name")
+                        ->options(Category::all()->pluck("name", "id"))
                         ->required()
-                        ->preload()
+                        // ->preload()
                         ->searchable(),
                     ColorPicker::make("color"),
                 ])->columns(2),
-                    
+
                     MarkdownEditor::make("content"),
                 ])->columnSpan(2),
 
                 //Grouping fields into 2 columns
                 Group::make([
-                    
+
                 //section 2 - image
                 Section::make("Image Upload")
                 ->schema([
@@ -67,10 +69,10 @@ class PostForm
                     ->schema([
                         TagsInput::make("tags"),
                         Checkbox::make("published"),
-                        DateTimePicker::make("published_at"), 
+                        DateTimePicker::make("published_at"),
                 ]),
                         ])->columnSpan(1)
-                
+
             ])->columns(3);
     }
 }
