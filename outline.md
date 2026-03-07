@@ -18,9 +18,9 @@ Daftar materi ini disusun secara berurutan untuk mempermudah proses belajar dari
 * [ ] **7.** Implementasi Wizard Form (Multi Step Form) di Filament 
 * [ ] **8.** Implementasi Info List (View Page) di Filament 
 * [ ] **9.** Implementasi Tabs pada Info List di Filament 
-* [ ] **10.**Implementasi Sorting (Ascending & Descending) pada Table Filament 
-* [ ] **11.**Implementasi Search & Filter pada Table Filament
-* [ ] **12.**Implementasi Toggle Column pada Table Filament 
+* [ ] **10.** Implementasi Sorting (Ascending & Descending) pada Table Filament 
+* [ ] **11.** Implementasi Search & Filter pada Table Filament
+* [ ] **12.** Implementasi Toggle Column pada Table Filament 
 
 ---
 
