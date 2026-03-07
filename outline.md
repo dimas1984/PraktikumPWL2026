@@ -78,3 +78,11 @@ Daftar materi ini disusun secara berurutan untuk mempermudah proses belajar dari
 * [ ] **43.** Mendapatkan dan Menampilkan Data API
 * [ ] **44.** Sumber Daya Bersarang (Nested Resources)
 * [ ] **45.** Dukungan Multi Bahasa | Pengelola Terjemahan
+
+# 🛠 Teknologi yang Digunakan
+
+- Laravel
+- FilamentPHP v4
+- Livewire
+- MySQL 8.2
+- TailwindCSS
