@@ -8,29 +8,29 @@ Daftar materi ini disusun secara berurutan untuk mempermudah proses belajar dari
 
 ### **Pertemuan 1: Instalasi & CRUD Dasar**
 * [ ] **1.** Panduan Instalasi & Konfigurasi
-* [ ] **2.** CRUD Dasar & Sumber Daya
-* [ ] **3.** Membuat Model & Migras
-* [ ] **4.** Panduan Elemen Formulir
-* [ ] **5.** Tata Letak Desain Formulir (Bagian & Grup)
-* [ ] **6.** Panduan Validasi Formulir
+* [ ] **2.** Membuat CRUD Resource dengan Filament v4 
+* [ ] **3.** Membuat Migration, Model, Relasi & Resource Category 
+* [ ] **4.** Implementasi Form Elements & Resource Post di Filament 
+* [ ] **5.** Custom Layout Form dengan Section & Group di Filament 
+* [ ] **6.** Implementasi Form Validation pada Filament
 
 ### **Pertemuan 2: Komponen Form & Tabel Lanjut**
-* [ ] **7.** Form Wizard | Form Multi
-* [ ] **8.** Elemen Infolists untuk Halaman Tampilan
-* [ ] **9.** Penjelajahan Mendalam Tab di Detail
-* [ ] **10.** Pengurutan Kolom Tabel
-* [ ] **11.** Tambahkan Pencarian Tabel
-* [ ] **12.** Toggle Kolom Tabel
+* [ ] **7.** Implementasi Wizard Form (Multi Step Form) di Filament 
+* [ ] **8.** Implementasi Info List (View Page) di Filament 
+* [ ] **9.** Implementasi Tabs pada Info List di Filament 
+* [ ] **10.**Implementasi Sorting (Ascending & Descending) pada Table Filament 
+* [ ] **11.**Implementasi Search & Filter pada Table Filament
+* [ ] **12.**Implementasi Toggle Column pada Table Filament 
 
 ---
 
 ## 📅 Minggu 2: Relasi & Dashboard
 
 ### **Pertemuan 3: Relation Manager & Navigasi**
-* [ ] **13.** Aksi Tabel dalam Detail
-* [ ] **14.** Manajer Hubungan (BelongsTo & HasMany)
-* [ ] **15.** Hubungan Banyak ke Banyak
-* [ ] **16.** Dropdown Bergantung (Pilihan Dropdown Bergantung)
+* [ ] **13.** Implementasi Table Actions & Custom Action di Filament 
+* [ ] **14.** Implementasi Relation pada Filament (HasMany) 
+* [ ] **15.** Implementasi Many-to-Many Relation pada Filament 
+* [ ] **16.** Implementasi Dependent Dropdown pada Filament
 * [ ] **17.** Pengaturan Pencarian Global
 * [ ] **18.** Penyesuaian Sidebar Navigasi & Badge Navigasi
 
