@@ -1,135 +1,59 @@
+# 🚀 Kurikulum Pembelajaran FilamentPHP (8 Pertemuan)
 
-# Praktikum Filament PHP
-
-## Pembagian Materi Praktikum (8 Pertemuan)
-
-Total Materi: **45 Topik**
+Daftar materi ini disusun secara berurutan untuk mempermudah proses belajar dari dasar hingga tingkat mahir.
 
 ---
 
-## 📚 Pertemuan 1 — Instalasi & CRUD Dasar
+## 📅 Minggu 1: Dasar-Dasar & Manajemen Formulir
 
-- Panduan Instalasi & Konfigurasi  
-- CRUD Dasar & Sumber Daya  
-- Membuat Model & Migrasi  
-- Panduan Elemen Formulir  
+### **Pertemuan 1: Instalasi & CRUD Dasar**
+* [ ] **1.** Panduan Instalasi & Konfigurasi
+* [ ] **2.** CRUD Dasar & Sumber Daya
+* [ ] **3.** Membuat Model & Migras
+* [ ] **4.** Panduan Elemen Formulir
+* [ ] **5.** Tata Letak Desain Formulir (Bagian & Grup)
+* [ ] **6.** Panduan Validasi Formulir
 
----
-
-## 📚 Pertemuan 2 — Form Builder
-
-- Tata Letak Desain Formulir (Bagian & Grup)  
-- Panduan Validasi Formulir  
-- Form Wizard / Form Multi  
-- Pembuatan Slug Otomatis menggunakan `afterStateUpdated`
-
----
-
-## 📚 Pertemuan 3 — Table & Infolist
-
-- Elemen Infolists untuk Halaman Tampilan  
-- Penjelajahan Mendalam Tab di Detail  
-- Pengurutan Kolom Tabel  
-- Tambahkan Pencarian Tabel  
-- Toggle Kolom Tabel  
-- Aksi Tabel dalam Detail  
+### **Pertemuan 2: Komponen Form & Tabel Lanjut**
+* [ ] **7.** Form Wizard | Form Multi
+* [ ] **8.** Elemen Infolists untuk Halaman Tampilan
+* [ ] **9.** Penjelajahan Mendalam Tab di Detail
+* [ ] **10.** Pengurutan Kolom Tabel
+* [ ] **11.** Tambahkan Pencarian Tabel
+* [ ] **12.** Toggle Kolom Tabel
 
 ---
 
-## 📚 Pertemuan 4 — Relationship Database
+## 📅 Minggu 2: Relasi & Dashboard
 
-- Manajer Hubungan (BelongsTo & HasMany)  
-- Hubungan Banyak ke Banyak  
-- Dropdown Bergantung (Dependent Dropdown)  
-- Sumber Daya Bersarang  
+### **Pertemuan 3: Relation Manager & Navigasi**
+* [ ] **13.** Aksi Tabel dalam Detail
+* [ ] **14.** Manajer Hubungan (BelongsTo & HasMany)
+* [ ] **15.** Hubungan Banyak ke Banyak
+* [ ] **16.** Dropdown Bergantung (Pilihan Dropdown Bergantung)
+* [ ] **17.** Pengaturan Pencarian Global
+* [ ] **18.** Penyesuaian Sidebar Navigasi & Badge Navigasi
 
----
-
-## 📚 Pertemuan 5 — Navigasi & Dashboard
-
-- Pengaturan Pencarian Global  
-- Penyesuaian Sidebar Navigasi & Badge Navigasi  
-- Menu Sidebar Tingkat Ketiga di FilamentPHP v4  
-- Widget Statistik  
-- Widget Grafik  
-- Widget Tabel  
-- Filter Dashboard  
-
----
-
-## 📚 Pertemuan 6 — Widget & Integrasi Data
-
-- Menambahkan Widget di Halaman Sumber Daya  
-- Impor dan Ekspor Berkas CSV atau Excel dengan FilamentPHP  
-- Mendapatkan dan Menampilkan Data API  
-- CRUD dengan Formulir Modal  
+### **Pertemuan 4: Visualisasi Data & Widget**
+* [ ] **19.** Menu Sidebar Tingkat Ketiga di FilamentPHP v4
+* [ ] **20.** Widget Statistik
+* [ ] **21.** Widget Grafik
+* [ ] **22.** Widget Tabel
+* [ ] **23.** Filter Dashboard Global
+* [ ] **24.** Menambahkan Widget di Halaman Sumber Daya
 
 ---
 
-## 📚 Pertemuan 7 — Authentication & Panel
+## 📅 Minggu 3: Keamanan & Multi-Tenancy
 
-- Menambahkan Multi Auth  
-- Akses Panel Pengguna (Tutorial Panel Multi)  
-- Menambahkan Middleware ke Panel Filament  
-- Laravel Filament Multi Tenancy  
-- Bangun Produk SaaS dengan Multi Tenancy  
+### **Pertemuan 5: Multi-Auth & Multi-Tenancy**
+* [ ] **25.** Filament Multi Auth
+* [ ] **26.** Akses Panel Pengguna - Tutorial Panel Multi
+* [ ] **27.** Menambahkan Middleware ke Panel Filament
+* [ ] **28.** Laravel Filament Multi Tenancy
+* [ ] **29.** Bangun Produk SaaS dengan Multi Tenancy
+* [ ] **30.** Tambahkan Google 2FA ke FilamentPHP
 
----
-
-## 📚 Pertemuan 8 — Security & Customization
-
-- Tambahkan Google 2FA ke FilamentPHP  
-- Tambahkan Email 2FA ke FilamentPHP  
-- Menyesuaikan Pemberitahuan di FilamentPHP  
-- Pemberitahuan Database di FilamentPHP  
-- Sesuaikan Warna, Logo, Font, Favicon, dan Nonaktifkan Mode Gelap  
-- Sesuaikan Tema  
-- Instal Plugin Tema  
-- Plugin Peningkat Antarmuka Otentikasi (Halaman Masuk/Daftar)  
-- Buat Halaman Kustom  
-- Dukungan Multi Bahasa (Pengelola Terjemahan)  
-
----
-
-# 📊 Ringkasan Distribusi Materi
-
-| Pertemuan | Fokus Materi |
-|-----------|-------------|
-| 1 | Instalasi & CRUD Dasar |
-| 2 | Form Builder |
-| 3 | Table & Infolist |
-| 4 | Relationship Database |
-| 5 | Navigasi & Dashboard |
-| 6 | Widget & Integrasi Data |
-| 7 | Authentication & Panel |
-| 8 | Security & Customization |
-
----
-
-# 🎯 Tujuan Praktikum
-
-Setelah menyelesaikan praktikum ini, mahasiswa diharapkan mampu:
-
-- Menginstal dan mengkonfigurasi **Laravel Filament**
-- Membuat **CRUD Resource**
-- Mengelola **Form dan Table Builder**
-- Menggunakan **Relationship Database**
-- Membuat **Dashboard Widget**
-- Mengimplementasikan **Authentication dan Multi Panel**
-- Mengembangkan **fitur lanjutan seperti Import/Export, API, Multi Tenancy, dan 2FA**
-
----
-
-# 🛠 Teknologi yang Digunakan
-
-- Laravel
-- FilamentPHP
-- Livewire
-- MySQL
-- TailwindCSS
-
----
-
-# 📌 Catatan
-
-Materi ini dirancang untuk **8 kali pertemuan praktikum** dalam satu semester dengan fokus pada pengembangan **Admin Panel menggunakan FilamentPHP**.
+### **Pertemuan 6: Notifikasi & Automasi**
+* [ ] **31.** Tambahkan Email 2FA ke FilamentPHP
+* [ ] **
