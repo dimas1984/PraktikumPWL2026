@@ -13,6 +13,7 @@ use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
 use BackedEnum;
+use App\Filament\Admin\Resources\Posts\RelationManagers\TagsRelationManager;
 
 class PostResource extends Resource
 {
@@ -36,6 +37,7 @@ class PostResource extends Resource
     {
         return [
             //
+            TagsRelationManager::class,
         ];
     }
 
