@@ -26,3 +26,19 @@ Jika berhasil akan muncul:
 [
   "name"
 ]
+berarti $fillable belum terbaca oleh Laravel.
+2️⃣ Pastikan $fillable ada di Model
+
+Contoh model yang benar:
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Country extends Model
+{
+    protected $fillable = [
+        'name',
+    ];
+}
