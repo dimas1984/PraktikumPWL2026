@@ -98,7 +98,7 @@ class Country extends Model
 
 Namun cara ini tidak disarankan untuk production.
 
-Kesimpulan
+📌 Kesimpulan
 
 Jika $fillable tidak terbaca:
 
